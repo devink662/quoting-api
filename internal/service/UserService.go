@@ -1,9 +1,9 @@
 package service
 
 import (
+	"../../internal/model"
 	"context"
 	"encoding/json"
-	"freight-quote-api/internal/model"
 	"github.com/gorilla/mux"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

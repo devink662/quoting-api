@@ -1,9 +1,9 @@
 package main
 
 import (
+	"../../internal/service"
 	"context"
 	"fmt"
-	"freight-quote-api/internal/service"
 	"log"
 	"net/http"
 	"time"
